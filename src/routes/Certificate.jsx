@@ -14,7 +14,7 @@ import Linux from '../assets/Linux.pdf';
 import Database from '../assets/Database.pdf';
 import CFile from '../Components/CFile';
 
-
+// 
 const Certificate = () => {
   const certs = [
     {
