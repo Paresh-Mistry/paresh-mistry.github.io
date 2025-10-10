@@ -13,6 +13,8 @@ import Layoutwrap from '../Layout/Layoutwrap';
 const Education = () => {
   const currentYear = new Date().getFullYear();
 
+  const GITHUB_USERNAME = import.meta.env.VITE_GITHUB_USERNAME
+
   const skills = [
     "JavaScript Frameworks",
     "HTML & CSS",
@@ -60,7 +62,7 @@ const Education = () => {
         <Card>
           <SectionTitle icon={<Github className="w-6 h-6 mr-2" />} title="Github Charts" />
           <img
-            src={`https://ghchart.rshah.org/paresh-mistry`}
+            src={`https://ghchart.rshah.org/${GITHUB_USERNAME}`}
             alt="Paresh's Github chart"
             className="w-full mx-auto"
           />
