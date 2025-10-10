@@ -1,58 +1,65 @@
-[
+[ 
+  {
+    "title": "CVgen - AI Resume Generator",
+    "description": "AI-powered resume builder using LangChain + Ollama.",
+    "link": "CVGen---AI-Resume-maker-with-Ollama.git",
+    "tech": "Flask, Postgres, ReactJS, Node.js, TailwindCSS, Shadcn, Pre-commit, Npm, Pip3, Ollama, LangChain",
+    "image": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400"
+  }, 
   {
     "title": "WeChat Application",
     "description": "A chat application with real-time messaging capabilities, built using Node.js and Socket.io.",
     "link": "Wechat-Application",
-    "tech": "Python, Flask, WebSockets, Bootstrap, HTML, CSS",
+    "tech": "Python, Flask, WebSockets, Bootstrap, Pip, HTML, CSS",
     "image": "https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=400"
   },
   {
     "title": "Eventify - Event/Hackathons Management System ",
     "description": "Eventify is a platform that allows organizers to create and manage events through a multi-step form with support for FAQs, image uploads, and scheduling, while users can browse, book, and pay for events securely via Razor pay. ",
     "link": "Eventify.git",
-    "tech": "FastAPI, NextJS, TailwindCSS, Razorpay, Postgresql",
+    "tech": "FastAPI, NextJS, TailwindCSS, Razorpay, Pip3, Bun, Poetry, Pre-commit, Postgresql",
     "image": "https://github.com/Paresh-Mistry/GeoProfiles/raw/main/src/assets/images/Screenshot%20(25).png"
   },
   {
     "title": "Orgpulse CLI",
     "description": "Developed a CLI tool to fetch and manage GitHub organization data, including repositories and issues, using the GitHub API.Integrated MongoDB for persistence, automatically storing and updating thousands of repositories/issues with upsert operations and checkpointing.",
     "link": "orgpulse.git",
-    "tech": "NodeJS, CommanderJS, MongoDB, RestAPI, GitHub API",
+    "tech": "NodeJS, CommanderJS, MongoDB, RestAPI, Pnpm, GitHub API",
+    "image": "https://github.com/Paresh-Mistry/GeoProfiles/raw/main/src/assets/images/Screenshot%20(25).png"
+  },
+   {
+    "title": "DeliveryHub",
+    "description": "DeliveryHub is a modern delivery management system designed to connect businesses, partners, and customers in a transparent and scalable way.   It offers real-time order tracking, partner assignment, socket-based updates, and map integration — built with cutting-edge technologies like Next.js, FastAPI, and WebSockets.",
+    "link": "deliveryhub.git",
+    "tech": "NodeJS, MongoDB, Nextjs, Tailwind CSS, SWR, Leaflet.js, Socket, JWT, Pre-commit, Bun, Rest API",
     "image": "https://github.com/Paresh-Mistry/GeoProfiles/raw/main/src/assets/images/Screenshot%20(25).png"
   },
   {
     "title": "Movies Application",
     "description": "A movies platform where users can see latest movies card and search movies.",
     "link": "Movies-Application",
-    "tech": "ReactJS, TailwindCSS",
+    "tech": "ReactJS, TailwindCSS, Npm, Rest API, IMDB API",
     "image": "https://images.pexels.com/photos/3408747/pexels-photo-3408747.jpeg?auto=compress&cs=tinysrgb&w=400"
   },
   {
     "title": "News Application",
     "description": "A News platform using OMDB API where users can view the latest news, top stories, and sports updates by applying filters.",
     "link": "React-News-App.git",
-    "tech": "ReactJS, REST API, TailwindCSS",
+    "tech": "ReactJS, TailwindCSS, Npm, Rest API, News API",
     "image": "https://images.pexels.com/photos/3408747/pexels-photo-3408747.jpeg?auto=compress&cs=tinysrgb&w=400"
   },
   {
     "title": "Pallet Sensing System",
     "description": " Pallet Sense is a leader in IoT-enabled smart pallet solutions, providing GPS-equipped pallets that transmit location, timestamp, and temperature data.Provide a Hotspot deviation zone using k-mean clustering for detecting nearby loss pallets. Create a dashboard for hotspot deviation zone and Live data for Pallet Lossing, Accuracy & Entropy in ReactJS.",
     "link": "PalletSensing.git",
-    "tech": "ML, DBSCAN, Jupyter, ReactJS",
+    "tech": "ML, DBSCAN, Jupyter, ReactJS, Npm, Seaborn, Numpy",
     "image": "https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=400"
-  },
-  {
-    "title": "CVgen - AI Resume Generator",
-    "description": "AI-powered resume builder using LangChain + Ollama.",
-    "link": "CVGen---AI-Resume-maker-with-Ollama.git",
-    "tech": "ReactJS, Node.js, TailwindCSS, Ollama, LangChain",
-    "image": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400"
   },
   {
     "title": "Faculty Appointment Portal",
     "description": "Scheduling platform for KJSIT with admin panel.",
     "link": "Kjsiit_Appointement.git",
-    "tech": "PostgreSQL, FastAPI, ReactJS, TailwindCSS",
+    "tech": "PostgreSQL, FastAPI, ReactJS, Npm, Sockets, Software Architectures, TailwindCSS",
     "image": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=400"
   }
 ]

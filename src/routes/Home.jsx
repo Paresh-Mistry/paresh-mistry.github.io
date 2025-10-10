@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import pdf from "../assets/Resume.pdf";
+import pdf from "../assets/Paresh-Mistry-Resume.pdf";
 import image from "../assets/Profileimg.jpg";
 import { Github, CodepenIcon, Code2, MessageCircleCode, Mail } from "lucide-react";
 import { motion } from "framer-motion";
