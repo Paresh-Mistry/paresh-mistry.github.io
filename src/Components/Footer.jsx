@@ -1,11 +1,10 @@
-import React from 'react';
-import { Linkedin, Github, Instagram } from 'lucide-react';
+import { Linkedin, Github, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12 px-6 border-t border-white/10 shadow-inner">
+    // bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900  border-t border-white/10
+    <footer className=" text-white py-12 bg-[#040D12] px-6 shadow-inner">
       <div className="container md:flex justify-around items-center mx-auto text-center md:space-y-0 space-y-8">
-
         <div className="flex justify-center gap-6">
           <a
             href="https://www.linkedin.com/in/paresh-mistry-975b64270/"
@@ -35,11 +34,14 @@ const Footer = () => {
 
         <div className="text-xs text-gray-500">
           <p>pareshkmistry04@gmail.com</p>
-          <p>&copy; {new Date().getFullYear()} <span className="text-yellow-300 font-bold">Paresh-Dev</span>. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()}{" "}
+            <span className="text-yellow-300 font-bold">Paresh-Dev</span>. All
+            rights reserved.
+          </p>
         </div>
       </div>
     </footer>
-
   );
 };
 
