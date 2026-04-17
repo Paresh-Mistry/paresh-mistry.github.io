@@ -1,1 +1,0 @@
-import{j as s}from"./index-CL3XIOsN.js";const r=({children:a})=>s.jsx("div",{className:"min-h-screen bg-[#040D12] mx-auto py-20 overflow-x-hidden",children:s.jsxs("div",{className:"relative mt-12 max-w-[1240px] lg:mx-auto mx-6",children:[s.jsx("div",{className:"absolute -top-16 -right-16 w-96 h-96 bg-[#5C8374] rounded-full blur-3xl opacity-20"}),a]})});export{r as L};
