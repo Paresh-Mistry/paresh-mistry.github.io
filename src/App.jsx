@@ -44,10 +44,10 @@ function App() {
       <RouteLoader>
         <Suspense fallback={<GeometricLogoLoader />}>
           <Routes>
-            <Route path="/paresh-dev" element={<Home />} />
-            <Route path="/paresh-dev/projects" element={<Projects />} />
-            <Route path="/paresh-dev/achievements" element={<Certificate />} />
-            <Route path="/paresh-dev/education" element={<Education />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/achievements" element={<Certificate />} />
+            <Route path="/education" element={<Education />} />
           </Routes>
         </Suspense>
       </RouteLoader>

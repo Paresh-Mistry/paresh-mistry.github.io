@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import pdf from "../assets/Resume.pdf";
+import pdf from "../assets/Paresh-Mistry-Resume.pdf";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <Link
-            to="/paresh-dev"
+            to="/"
             className="text-xl sm:text-2xl font-bold text-white hover:text-teal-400 transition-colors duration-300"
           >
             <span className="text-slate-400">Paresh</span>
@@ -46,8 +46,8 @@ const Navbar = () => {
                 key={item}
                 to={
                   item === "Home"
-                    ? "/paresh-dev"
-                    : `/paresh-dev/${item.toLowerCase()}`
+                    ? "/"
+                    : `/${item.toLowerCase()}`
                 }
                 className="px-4 py-2 text-sm font-medium text-slate-400 hover:text-white hover:bg-slate-800/50 rounded-lg transition-all duration-300"
               >
@@ -87,8 +87,8 @@ const Navbar = () => {
                 key={item}
                 to={
                   item === "Home"
-                    ? "/paresh-dev"
-                    : `/paresh-dev/${item.toLowerCase()}`
+                    ? "/"
+                    : `/${item.toLowerCase()}`
                 }
                 onClick={() => setIsOpen(false)}
                 className="block px-4 py-3 text-slate-400 hover:text-white hover:bg-slate-800/50 rounded-lg transition-all duration-300 font-medium"
